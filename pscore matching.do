@@ -6,7 +6,7 @@ capture log close
 log using "logs/finalassignment.log", replace
 set more off
 
-use "input/assignment2_dataset", clear
+use "input/CashTransferProgramme", clear
 describe
 sum 
 count
